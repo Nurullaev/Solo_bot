@@ -23,7 +23,7 @@ async def handle_pay(callback_query: CallbackQuery):
     if YOOKASSA_ENABLE:
         builder.row(
             InlineKeyboardButton(
-                text="💳 ЮКасса: быстрая оплата",
+                text="💳 ЮКасса: СБП, SberPay, T-pay",
                 callback_data="pay_yookassa",
             )
         )
